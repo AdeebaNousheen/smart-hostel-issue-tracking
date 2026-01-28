@@ -13,7 +13,7 @@ export default function StudentDashboard({ onLogout }: StudentDashboardProps) {
   const [issues, setIssues] = useState<HostelIssue[]>([]);
   const [loading, setLoading] = useState(false);
   const [submitting, setSubmitting] = useState(false);
-
+  
   useEffect(() => {
     fetchIssues();
 
@@ -89,15 +89,23 @@ export default function StudentDashboard({ onLogout }: StudentDashboardProps) {
           <div>
             <h1 className="text-2xl font-bold text-gray-900">Student Portal</h1>
             <p className="text-sm text-gray-600">Submit and track hostel issues</p>
-          </div>
-          <button
-            onClick={onLogout}
-            className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
-          >
-            <LogOut className="w-5 h-5" />
-            <span>Logout</span>
-          </button>
-        </div>
+          <div className="flex gap-2">
+  <button
+    onClick={onLogout}
+    className="px-4 py-2 rounded-lg border text-gray-700 hover:bg-gray-100"
+  >
+    ← Home
+  </button>
+
+  <button
+    onClick={onLogout}
+    className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-lg"
+  >
+    <LogOut className="w-5 h-5" />
+    Logout
+  </button>
+</div>
+
       </header>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
