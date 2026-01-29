@@ -33,10 +33,26 @@ This system provides a centralized platform where:
 ## 🔮 Future Enhancements
 - Email/SMS notifications
 - Issue priority & analytics
-- Role-based authentication
-- Mobile app version
+
+- ---
 
 ## 👩‍💻 Developer
 Adeeba Nousheen  
 B.Tech Student | AI & ML | Web Development
+
+## 📸 Application Screenshots
+
+### 🏠 Landing Page
+![Landing Page](screenshots/landing-page.png)
+
+### 🎓 Student Portal
+![Student Portal](screenshots/Student-portal.png)
+
+### 🛠️ Admin Portal
+![Admin Portal](screenshots/Admin-portal.png)
+
+- Role-based authentication
+- Mobile app version
+
+
 
