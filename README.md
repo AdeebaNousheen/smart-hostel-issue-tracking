@@ -36,9 +36,9 @@ This system provides a centralized platform where:
 
 - ---
 
-## 👩‍💻 Developer
-Adeeba Nousheen  
-B.Tech Student | AI & ML | Web Development
+## 👩‍💻 Team Members
+- **Adeeba Nousheen** – Frontend development, Supabase integration, deployment
+- **Rida Fathima** – Backend support, database design, testing and documentation
 
 ## 📸 Application Screenshots
 
