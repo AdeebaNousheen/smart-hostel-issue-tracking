@@ -2,6 +2,10 @@
 
 A full-stack web application to digitally manage hostel complaints, allowing students to submit issues and administrators to track and resolve them efficiently.
 
+## 🌐 Live Deployed Application
+🔗 https://smart-hostel-issue-t-99ws.bolt.host
+
+
 ## 🚩 Problem Statement
 Hostel issues are often handled manually through registers or informal messaging, leading to delays, lack of transparency, and poor tracking.
 
